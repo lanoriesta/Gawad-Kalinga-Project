@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@theme {
+  --color-orange: #dc7950;
+  --color-maroon: #77232d;
+  --color-yellow: #f9be50;
+  --color-blue: #234b64;
+  --color-green: #728b57;
+  --color-light-green: #b4cd85;
+  --main-bg: url("/src/assets/images/MKV-bg.png");
+  --news-bg: url("/src/assets/images/WhatNewSection-img.png");
+  --main-padding-top: 120px;
+  --main-w-container: 1200px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
