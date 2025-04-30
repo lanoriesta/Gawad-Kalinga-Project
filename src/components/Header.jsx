@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import imgLogo from "../assets/images/GK-USA-Logo.png";
+// import imgLogo from "../assets/images/GK-USA-Logo.png";
 import { Mail, Menu, Phone } from "lucide-react";
 import SideNav from "./SideNav";
 
@@ -45,7 +45,7 @@ const Header = () => {
           </a>
         </div>
         <div className="flex justify-center">
-          <img src={imgLogo} alt="GK USA Org Logo" className="w-40" />
+          <img alt="GK USA Org Logo" className="w-40" />
         </div>
         <div className="hidden md:flex flex-col justify-center gap-4 items-end text-white w-full">
           <button className=" cursor-pointer w-[100px] py-1 px-3  bg-white text-[var(--color-orange)] shadow-md rounded-sm hover:bg-white/80 transition-all duration-300 ease-in-out">
