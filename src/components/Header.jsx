@@ -1,6 +1,6 @@
-import { Mail, Menu, Phone } from "lucide-react";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import imgLogo from "../assets/images/GK-USA-Logo.png";
+import { Mail, Menu, Phone } from "lucide-react";
 import SideNav from "./SideNav";
 
 const Header = () => {
