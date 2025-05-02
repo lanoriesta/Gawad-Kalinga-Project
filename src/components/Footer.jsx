@@ -1,5 +1,5 @@
 import React from "react";
-// import imgLogo from "../assets/images/GK-USA-Logo.png";
+import logo from "../assets/images/Main-Logo.png";
 import facebookIcon from "../assets/images/icons/facebook-icon.png";
 import youtubeIcon from "../assets/images/icons/youtube-icon.png";
 import instagramIcon from "../assets/images/icons/instagram-icon.png";
@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="grid lg:grid-cols-2 items-center gap-4 w-full py-5 px-8">
           <div>
             <div className="w-full flex flex-col justify-center lg:items-start items-center">
-              {/* <img src={imgLogo} alt="GK USA" width={200} /> */}
+              <img src={logo} alt="GK USA" width={200} />
               <p className="text-sm text-center opacity-70">
                 GK USA is a registered 501(c)3 non-profit organization. TAX ID
                 NO.: 352361640
