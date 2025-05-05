@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import imgLogo from "../assets/images/GK-USA-Logo.png";
 import logo from "../assets/images/Main-logo.png";
 import { Mail, Menu, Phone } from "lucide-react";
 import SideNav from "./SideNav";
